@@ -1,1 +1,88 @@
+* {
+    font-size: 50px;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: lightseagreen;
+}
+
+h1 {
+    color: lightseagreen;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+hr {
+    width: 10rem;
+    height: 0.06rem;
+    background-color: lightseagreen;
+}
+
+#board-wrapper {
+    border: 0.06rem solid lightseagreen;
+    width: 12rem;
+    height: 12rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+}
+
+#board {
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 2.94rem;
+    height: 2.94rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-bottom: 0.06rem solid lightseagreen;
+}
+
+.vertical-line {
+    border-right: 0.06rem solid lightseagreen;
+}
+
+.winner {
+    color: red;
+}
+
+#refresh {
+    border: 0.06rem solid lightseagreen;
+    border-radius: 0.8rem;
+    font-size: 0.4rem;
+    padding: 0.3rem;
+    color: lightseagreen;
+    background-color: transparent;
+}
+
+#refresh:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    * {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    * {
+        font-size: 20px;
+    }
+}
