@@ -74,15 +74,3 @@ hr {
     background-color: lightseagreen;
     color: black;
 }
-
-/* @media screen and (max-width: 1000px) {
-    * {
-        font-size: 40px;
-    }
-} */
-
-/* @media screen and (max-height: 500px) {
-    * {
-        font-size: 20px;
-    }
-} */
