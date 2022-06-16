@@ -77,6 +77,6 @@ hr {
 
 @media screen and (max-width: 1000px) {
     * {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
