@@ -49,6 +49,10 @@ hr {
     align-items: center;
 }
 
+.tile:hover {
+    cursor: pointer;
+}
+
 .horizontal-line {
     border-bottom: 0.06rem solid lightseagreen;
 }
